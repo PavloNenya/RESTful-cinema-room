@@ -1,8 +1,9 @@
 package cinema.models;
 
 import lombok.Data;
+import lombok.Value;
 
-@Data
+@Value
 public class SoldTicket {
     final String token;
     final PricedSeat ticket;
